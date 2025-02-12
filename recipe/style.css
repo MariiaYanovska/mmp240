@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(224, 210, 178);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-style: italic;
+    font-size: xx-large;
+    color: black;
+    font-weight: 50;
+    padding: 20px;
+    margin: 50px;
+    border: 2px solid rgb(84, 53, 21);
+    text-align: center;
+}
+
+h2{
+    color: rgb(84, 53, 21);
+    font-size: x-large;
+    border-style: double;
+    border-color: rgb(59, 46, 15);
+}
+
+h3{
+    color: rgb(84, 53, 21);;
+    font-size: large;
+    font-weight: 100;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
