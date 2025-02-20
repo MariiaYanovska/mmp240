@@ -11,7 +11,7 @@ body{
 
 h1{
     font-style: italic;
-    font-size: xx-large;
+    font-size: 2rem;
     color: black;
     font-weight: 50;
     padding: 20px;
@@ -44,4 +44,8 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+li{
+    margin-bottom: 1rem;
 }
