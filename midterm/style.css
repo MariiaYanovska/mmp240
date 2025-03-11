@@ -8,27 +8,60 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: 1000px;
+    background-color: antiquewhite;
 }
 
-header{
+
+
+header {
+    height: 300px;
     padding: 2em;
-    background:
-    linear-gradient(90deg, #b1bdbd 0%, #b1bdbd 40%, #b1bdbd 60%, #bdc0c0 100%),
-    url(images/image.png) no-repeat right;
+    background: 
+        linear-gradient(90deg, rgba(247,247,247,0.8) 0%, rgba(215,215,215,0.8) 41.1%, rgba(115, 115, 115, 0) 58.1%),
+        url("images/image.png") no-repeat right;
+    background-size: contain;
 }
 
 .banner-text{
-    color: #fff;
+    color: #5B0202;
     width: 40%;
 }
 
 
-.btn{
-color: #fff;
-background-color: rgb(167, 6, 6);
-text-decoration: none;
-padding: 0.5em 1em;
-border-radius: 10px;
-display: inline-block;
+
+.btn {
+    display: inline-block;
+    background-color: #5B0202; 
+    color: #FFFFFF;
+    padding: 12px 32px; /* Збільшений padding для більшої кнопки */
+    font-size: 18px; 
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px; /* Закруглені кути */
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Легке затемнення */
+    transition: background-color 0.3s ease;
+    margin: 30px; /*розташування кнопки*/
 }
 
+.btn:hover {
+    background-color: #8B0000;
+}
+
+nav{
+    background-color: #8B0000;
+    padding: 0.5em 0;
+    text-align: right;
+}
+
+nav li{
+display: inline;
+margin-right: 3em;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
