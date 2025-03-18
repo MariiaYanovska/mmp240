@@ -8,7 +8,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: 1000px;
-    background-color: white; 
+    background-color: #ffffff; 
+
 }
 
 
@@ -85,8 +86,36 @@ nav a:hover{
 }
 
 footer{
-    position: fixed;
-    bottom: 0;
+    /*position: fixed;
+    bottom: 0;*/
     clear: both;
 }
 
+/*Episode page style*/
+
+.episodes{
+    /*display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;*/
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.episode-card{
+    width: 270px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: solid 1px #b7b5b5;
+}
+
+.episod-card:last-child{
+    margin-right: 0;
+}
+
+.episode-card img{
+    width: 100%;
+}
+
+.episode-card p, .episode-card h4{
+    margin: 1em;
+}
