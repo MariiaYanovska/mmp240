@@ -121,3 +121,14 @@ footer{
 .episode-card p, .episode-card h4{
     margin: 1em;
 }
+
+
+/*@media screen and (max-width: 680px) {
+    header{
+        padding-top: 20px;
+        background: 
+        linear-gardient (90deg, rgba(247,247,247,0.8) 0%, rgba(215,215,215,0.8) 41.1%, rgba(115, 115, 115, 0) 58.1%),
+        url("images/image.png") no-repeat right;
+    }
+    
+}*/
