@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-nav{
+display: none;
+}
+
+.material-symbols-outlined{
+    float: right;
+}
