@@ -13,7 +13,10 @@ h1{
 
 h1 a{
     text-decoration: none;
-    color: #9862af;
+    color: #330e42;
+    border: solid 1px #330e42;
+    border-radius: 5px;
+    padding: 7px;
 }
 
 section h2{
@@ -59,6 +62,7 @@ background-color: #fff;
 }
 
 #top-nav ul a{
+    color: #5B0202;
     display: block;
     padding: 5px;
     border-bottom: solid 1px #000;
@@ -115,7 +119,7 @@ background-color: #fff;
 /*hero banner*/
 
 .hero{
-    background: url(cunydesignbanner.jpg) no-repeat top/cover;
+    background: url(images/Brooklyn-College-part-City-University-of-New.webp) no-repeat center/cover;
     padding: 2em;
     color: white;
     font-size: large;
@@ -125,7 +129,8 @@ background-color: #fff;
 }
 
 .hero p{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0.5, 0.7);
+    color: #ffffff;
     padding: 1em;
 }
 
@@ -144,6 +149,10 @@ background-color: #fff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
     margin: 30px;
+}
+
+.btn:hover {
+    background-color: #8B0000;
 }
 
 /*main content*/
@@ -165,6 +174,7 @@ footer{
     .material-symbols-outlined{
         display: none;
     }
+
     #top-nav{
         display: flex;
         position: static;
@@ -183,4 +193,34 @@ footer{
     #top-nav li{
         margin: 0 1em;
     }
+
+    /*program menu for large screen*/
+
+    .programs-menu{
+        position: relative; /*to keep the same width*/
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dropdown{
+        width: 32%;
+    }
+
+    .dropdown:hover{
+        border-radius: 10px 10px 0 0;
+    }
+
+    .dropdown ul{
+        position: absolute;
+        width: 32%;
+    }
+
+    /*main grid*/
+
+    .home main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 2em;
+    }
+
 } /*end of media query*/
