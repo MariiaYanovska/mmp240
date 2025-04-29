@@ -62,7 +62,7 @@ background-color: #fff;
 }
 
 #top-nav ul a{
-    color: #5B0202;
+    color: #330e42;
     display: block;
     padding: 5px;
     border-bottom: solid 1px #000;
@@ -166,9 +166,12 @@ article img{
 }
 
 /*footer*/
+
 footer{
     clear: both;
 }
+
+/*start of media query*/
 
 @media (min-width:768px){
     .material-symbols-outlined{
@@ -219,7 +222,7 @@ footer{
 
     .home main{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: minmax(500px, 1fr) 300px;
         grid-gap: 2em;
     }
 
