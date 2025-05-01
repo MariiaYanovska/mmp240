@@ -171,6 +171,55 @@ footer{
     clear: both;
 }
 
+/* Program cards*/
+.card{
+    border: solid 1px grey;
+    border-radius: 10px;
+    transition: 
+    box-shadow 0.5s, 
+    transform 0.5s;
+    /*transition-duration: 0.5s;*/
+
+
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px #6f6f66; /* X shift, Y shift, blur, color */
+    transform: scale(1.02);
+}
+
+.card-body{
+    padding: 1em;
+}
+
+.card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3{
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin-bottom: 1;
+}
+
+.card h2{
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+/*utility classes*/
+.responsive-img{
+    width: 100%;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+.black{
+    color: #000;
+}
+
 /*start of media query*/
 
 @media (min-width:768px){
