@@ -6,6 +6,12 @@ body{
     margin: 10px;
 }
 
+h2, h3 {
+    font-family: 'Newsreader', serif;
+    color: #330e42;
+    font-weight: 500;
+}
+
 h1{
     font-size: 1rem;
     text-transform: uppercase;
@@ -34,6 +40,13 @@ article h3 a{
 
 .programs-nav h3{
     font-size: 1rem;
+}
+
+.programs-nav{
+    background: linear-gradient(135deg, #e6d4f4, #f5f0ff);
+    padding: 2em;
+    border-radius: 10px;
+    margin-bottom: 2em;
 }
 
 header{
@@ -107,6 +120,11 @@ background-color: #fff;
     background-color: gray;
 }
 
+.dropdown:hover .material-symbols-outlined {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
 .dropdown ul{
     background-color: #fff;
     display: none;
@@ -116,10 +134,18 @@ background-color: #fff;
     display: block;
 }
 
+main > section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
 /*hero banner*/
 
 .hero{
     background: url(images/Brooklyn-College-part-City-University-of-New.webp) no-repeat center/cover;
+    background: linear-gradient(rgba(51, 14, 66, 0.5), rgba(0, 0, 0, 0.7)), 
+                url(images/Brooklyn-College-part-City-University-of-New.webp) no-repeat center/cover;
     padding: 2em;
     color: white;
     font-size: large;
@@ -180,8 +206,6 @@ footer{
     box-shadow 0.5s, 
     transform 0.5s;
     /*transition-duration: 0.5s;*/
-
-
 }
 
 .card:hover{
